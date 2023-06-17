@@ -1,7 +1,5 @@
 import random
 
-
-
 def get_choices():
   player_choice = input("Enter a choice, rock, paper, scissors")
   options = ["rock", "paper", "scissors"]
@@ -34,5 +32,3 @@ def check_win(player, computer):
 choices = get_choices()
 results = check_win(choices ["player"], choices ["computer"])
 print(results)
-
-
